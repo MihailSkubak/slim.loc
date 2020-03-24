@@ -1,0 +1,63 @@
+body{
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header{
+	 background: url(img/Background.png) no-repeat center top / cover;
+	 padding-bottom: 435px;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.form-signin{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 30%;
+}
+.ButLog{
+	margin: 0 auto;
+	text-decoration: none;
+	color: black;
+	background: blue;
+	padding-right: 150px;
+	padding-left: 160px;
+}
+.ButLog2{
+	margin: 0 auto;
+	text-decoration: none;
+	color: black;
+	background: blue;
+	padding-right: 121px;
+	padding-left: 143px;
+}
+button{
+	background: blue;
+	font-size: 16px;
+}
+.Good{
+	background: green;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+}
+.Mistake{
+	background: red;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 140px;
+}
+.logo{
+  width: 100%;
+  height: 50px;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  color: yellow;
+}
+.inf{
+	margin: 0;
+}
